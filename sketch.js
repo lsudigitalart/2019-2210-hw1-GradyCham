@@ -1,7 +1,7 @@
 
 function setup(){
 	createCanvas(800, 800);
-	background(255, 0,0);
+	background(255);
 	//fill (0);
 	//stroke (255)
 	//strokeWeight(100);
@@ -25,6 +25,42 @@ function draw (){
 	stroke(0);
 	strokeWeight(3);
 	ellipse(720,520, 25, 75);
+	//hair bottom
+	//leftbraid
+	fill(255);
+	stroke(0);
+	strokeWeight(10);
+	ellipse(225,725, 100, 125);
+	fill(255);
+	stroke(0);
+	strokeWeight(10);
+	ellipse(225,665, 100, 125);
+	fill(255);
+	stroke(0);
+	strokeWeight(10);
+	ellipse(225,605, 100, 125);
+	//middlebraid
+	fill(255);
+	stroke(0);
+	strokeWeight(10);
+	ellipse(400,725, 100, 125);
+	fill(255);
+	stroke(0);
+	strokeWeight(10);
+	ellipse(400,665, 100, 125);
+	//rightBraid
+	fill(255);
+	stroke(0);
+	strokeWeight(10);
+	ellipse(575,725, 100, 125);
+	fill(255);
+	stroke(0);
+	strokeWeight(10);
+	ellipse(575,665, 100, 125);
+	fill(255);
+	stroke(0);
+	strokeWeight(10);
+	ellipse(575,605, 100, 125);
 	//head
 	fill(0);
 	noStroke();
@@ -37,9 +73,33 @@ function draw (){
 	noStroke();
 	ellipse(400,400, 500, 350);
 	//hair top
+	//leftbraid
 	fill(255);
-	noStroke();
-	ellipse(275,200, 100, 100);
+	stroke(0);
+	strokeWeight(10);
+	ellipse(225,125, 100, 125);
+	fill(255);
+	stroke(0);
+	strokeWeight(10);
+	ellipse(225,150, 100, 125);
+	//middlebraid
+	fill(255);
+	stroke(0);
+	strokeWeight(10);
+	ellipse(400,75, 100, 125);
+	fill(255);
+	stroke(0);
+	strokeWeight(10);
+	ellipse(400,100, 100, 125);
+	//rightbraid
+	fill(255);
+	stroke(0);
+	strokeWeight(10);
+	ellipse(575,125, 100, 125);
+	fill(255);
+	stroke(0);
+	strokeWeight(10);
+	ellipse(575,150, 100, 125);
 	//eyes
 	fill(255);
 	noStroke();
